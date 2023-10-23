@@ -114,13 +114,13 @@ function AllProducts(props) {
               <hr className="sidebar-divider" />
 
               {/* Heading */}
-              <div className="sidebar-heading">Actions</div>
+              <div className="sidebar-heading">Acciones</div>
 
               {/* Nav Item - Pages */}
               <li className="nav-item">
                 <a className="nav-link collapsed" href="/">
                   <i className="fas fa-fw fa-folder"></i>
-                  <span>Pages</span>
+                  <span>Páginas</span>
                 </a>
               </li>
 
@@ -128,14 +128,14 @@ function AllProducts(props) {
               <li className="nav-item">
                 <a className="nav-link" href="/">
                   <i className="fas fa-fw fa-chart-area"></i>
-                  <span>Charts</span></a>
+                  <span>Gráficos</span></a>
               </li>
 
               {/* Nav Item - Tables */}
               <li className="nav-item">
                 <a className="nav-link" href="/">
                   <i className="fas fa-fw fa-table"></i>
-                  <span>Tables</span></a>
+                  <span>Tablas</span></a>
               </li>
 
               {/* Divider */}
@@ -154,7 +154,7 @@ function AllProducts(props) {
 
                   {/* Page Heading */}
                   <div className="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 className="h3 mb-0 text-gray-800">App Dashboard</h1>
+                    <h1 className="h3 mb-0 text-gray-800">Dashboard Yerbeando</h1>
                   </div>
 
                   {/* Content Row */}
@@ -166,7 +166,7 @@ function AllProducts(props) {
                         <div className="card-body">
                           <div className="row no-gutters align-items-center">
                             <div className="col mr-2">
-                              <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">Products in Data Base</div>
+                              <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">Productos</div>
                               <div className="h5 mb-0 font-weight-bold text-gray-800">{listProductsData.count}</div>
                             </div>
                             <div className="col-auto">
@@ -183,7 +183,7 @@ function AllProducts(props) {
                         <div className="card-body">
                           <div className="row no-gutters align-items-center">
                             <div className="col mr-2">
-                              <div className="text-xs font-weight-bold text-success text-uppercase mb-1">Categorys quantity</div>
+                              <div className="text-xs font-weight-bold text-success text-uppercase mb-1">Categorías</div>
                               <div className="h5 mb-0 font-weight-bold text-gray-800">{listCategorysData.count}</div>
                             </div>
                             <div className="col-auto">
@@ -200,7 +200,7 @@ function AllProducts(props) {
                         <div className="card-body">
                           <div className="row no-gutters align-items-center">
                             <div className="col mr-2">
-                              <div className="text-xs font-weight-bold text-warning text-uppercase mb-1">Users quantity</div>
+                              <div className="text-xs font-weight-bold text-warning text-uppercase mb-1">Usuarios</div>
                               <div className="h5 mb-0 font-weight-bold text-gray-800">{usersData.count}</div>
                             </div>
                             <div className="col-auto">
@@ -217,7 +217,7 @@ function AllProducts(props) {
                     <div className="col-lg-6 mb-4">
                       <div className="card shadow mb-4">
                         <div className="card-header py-3">
-                          <h6 className="m-0 font-weight-bold text-primary">Last product in Data Base </h6>
+                          <h6 className="m-0 font-weight-bold text-primary">Ultimos Productos</h6>
                         </div>
                         <div className="card-body">
                           <div className="text-center"> 
@@ -237,7 +237,7 @@ function AllProducts(props) {
                     <div className="col-lg-6 mb-4">
                       <div className="card shadow mb-4">
                         <div className="card-header py-3">
-                          <h6 className="m-0 font-weight-bold text-primary">Categories in Data Base</h6>
+                          <h6 className="m-0 font-weight-bold text-primary">Categorías</h6>
                         </div>
                         <div className="card-body">
                           <div className="row">
